@@ -9,7 +9,9 @@ int main () {
 	//char odd ="SIT";
 	int b=0;
 	
+	cout << endl;
 	cout<< "Hello! Enter a phrase containing letter 'b' :" << endl;
+	cout << endl;
 	
 	getline (cin, input);
 	cout<< endl;
@@ -17,6 +19,7 @@ int main () {
 	cout<< input;
 	
 	cout<< endl;
+	cout <<endl;
 	
 	for (int i=0; i<=input.length(); i++) {
 
@@ -35,6 +38,7 @@ int main () {
 			cout << input[i];
 		}
 	}
+	cout <<endl;
 
 	// cout << "amount of 'b' is " << b << endl;
 	// cout << input<< endl;

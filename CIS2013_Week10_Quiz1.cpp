@@ -28,7 +28,7 @@ int main () {
 			
 			if (b%2==0){
 				
-				cout << "STAND";
+				cout << "STAND"; // automatically prints STAND instead of b - because inside of for-loop!
 			}
 			else if (b%2==1){
 				
